@@ -1,0 +1,58 @@
+/* NOTE: The following heading styles for tags <h1>, <h2>, and <h3> are used across all pages of the website to style the very top of the website which says 'TechCon 2023', 'Leicester, United Kingdom', '14th - 17th December'. */
+
+h1 {color: white; text-align: center; font-size: 30px; font-weight: bold; font-family: arial;}
+h2 {color: white; text-align: center; font-size: 16px; font-family: arial;}
+h3 {color: white; text-align: center; font-size: 12px; font-family: arial;}
+
+/* NOTE: The following heading styles for tags <h4> and <h5> are only used in the speakers page to style the headings for the names of the speakers and the subheadings 'Bio', 'Company', and 'Speech Topic'. */
+
+h4 {color: white; text-align: left; font-size: 24px; font-family: arial;}
+h5 {color: white; text-align: left; font-size: 20px; font-family: arial;}
+
+/* NOTE: The following paragraph styles for tags <p1> and <p2> are used across all pages of the website to style the paragraphs. The style for tag <p3> is only used in the contact page for TechCon's email address. */
+
+p1 {color: white; text-align: left; font-size: 20px;}
+p2 {color: white; text-align: left; font-size: 16px;}
+p3 {color: white; text-align: left; font-size: 12px;}
+
+/* NOTE: The following body style is used to style the background of the body of the website. The background is set to 100% to fill the width of the page, and repeating is on so that the background repeats vertically when scrolling. */
+
+body {background-image: url('Images/background_img.jpg'); background-size: 100%;}
+
+/* NOTE: The following div style is used to create a box in which information is placed so that it can be read more easily than it would be over the background. */
+
+div {width: 95%; padding: 20px; border: 10px black; background-color: navy;}
+
+/* NOTE: The following link style is used to make hyperlinks lime so that they stand out more against the dark background. */
+
+a {color: lime;}
+
+/* NOTE: The following label style is used to style the labels for the registration form in the register page, and the contact form in the contact page. */
+
+label {color: white; font-size: 16px;}
+
+/* NOTE: The following table, th, and td styles are used to style the table in the schedule page. Border-collapse is set to collapse so that the borders collapse into one border. Border spacing creates space between the border and the cell to make the table more spaced out and easier to read. Padding creates a space between the edge of the cell and the text. */
+
+table {border: 1px solid white; border-collapse: collapse; border-spacing: 30px; padding: 10px; width: 100%;}
+th {color: white; border: 1px solid white; border-collapse: collapse; border-spacing: 30px; padding: 10px;}
+td {color: white; border: 1px solid white; border-collapse: collapse; border-spacing: 30px; padding: 10px;}
+
+/* NOTE: The following caption style is used to style the table caption in the schedule page.. */
+
+caption {color: white; font-weight: bold;}
+
+/* NOTE: The following footer style is used to style the footer on each page. */
+
+footer {color: white;}
+
+/* NOTE:  The following list styles are adapted from https://www.w3schools.com/Css/css_navbar_horizontal.asp and they are used to create a navbar. */
+
+ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: navy;}
+li {float: left;}
+li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+li a:hover {background-color: black;}
+.active {background-color: green;}
+
+/* NOTE: The following image style is used to style the images in the speakers page. */
+
+img {float: right; height: 300px; width: 300px;}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechCon 2023</title>
+        <link rel = 'stylesheet' href = 'style.css'>
+    </head>
+    <body>
+        <h1>TechCon 2023</h1>
+        <h2>Leicester, United Kingdom</h2>
+        <h3>14th - 17th December</h3><br>
+
+        <!-- The following <ul> and <li> tags consist of the hyperlinks which are used to create the navbar. -->
+
+        <nav>
+            <ul>
+                <li><a href = 'index.html'>Home</a></li>
+                <li><a class = 'active' href = 'register.html'>Register</a></li>
+                <li><a href = 'schedule.html'>Schedule</a></li>
+                <li><a href = 'speakers.html'>Speakers</a></li>
+                <li><a href = 'contact.html'>Contact Us</a></li>
+            </ul><br><br>
+        </nav>
+
+        <!-- The following form tag creates the registration form. Labels are used to identify what the user needs to enter in each field. All input values are of the type 'text'. Form validation is done by using the attribute 'required' which prevents the form being submitted if a required field is empty. -->
+
+        <form id = 'Registration'>
+
+            <!-- The following div tag is used to place the text in a box to make it easier to read than it is over the background. -->
+
+            <div>
+                <h1>Register</h1>
+                <p1>Register with us here to receive priority access to tickets!</p1><br><br>
+
+                <label for = 'firstName'><b>First Name</b></label><br>
+                <input type = 'text' placeholder = 'Enter your first name' name = 'firstName' required><br><br>
+
+                <label for = 'surname'><b>Surname</b></label><br>
+                <input type = 'text' placeholder = 'Enter your surname' name = 'surname' required><br><br>
+
+                <label for = 'email'><b>Email</b></label><br>
+                <input type = 'text' placeholder = 'Enter your email' name = 'email' required><br><br>
+
+                <!-- The values are submitted using the post method as it is more secure to pass data in the HTTP headers than through the URL, which can be read by anyone. -->
+
+                <input type = 'submit' value = 'Submit' method = 'post'/>
+            </div>
+        </form>
+    </body>
+    <footer>&copy; TechCon, 2023</footer>
+</html>
